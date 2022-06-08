@@ -4,8 +4,8 @@
  */
 void print_alphabet(void)
 {
-	char a = 'a';
-	 
+	char a = 'z';
+
 	while (a <= 'z')
 	{
 		_putchar(a);
