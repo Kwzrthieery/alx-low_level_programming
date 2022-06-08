@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include <unistd.h>
 
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar");
-	return (0);
+	return (write(1, &c, 1));
+
 }
+
