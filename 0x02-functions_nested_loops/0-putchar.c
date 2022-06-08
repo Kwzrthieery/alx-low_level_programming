@@ -1,9 +1,15 @@
 #include "main.h"
-#include <unistd.h>
-
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char string[8] = "_putchar";
+	int n = 0;
 
+	while (n < 0)
+	{
+		_putchar(string[n]);
+		++n;
+	}
+
+	_putchar(10);
+	return (0);
 }
-
