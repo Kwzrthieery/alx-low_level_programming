@@ -2,7 +2,7 @@
 /**
  * _abs - function to get the absolute value
  *
- * @n: parameter of the function 
+ * @n: parameter of the function
  *
  * Return: the absolute value
  */
@@ -17,7 +17,7 @@ int _abs(int n)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 		return (-n);
 	}
