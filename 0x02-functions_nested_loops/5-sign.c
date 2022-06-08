@@ -9,7 +9,7 @@
  * get -1 otherwise
  */
 
-int print_sign(int n)
+int _print_sign(int n)
 {
 	if (n > 0)
 	{
