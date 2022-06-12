@@ -13,9 +13,9 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		while(size--)
+		while (size--)
 		{
-			while(rows--)
+			while (rows--)
 			{
 				_putchar(35);
 			}

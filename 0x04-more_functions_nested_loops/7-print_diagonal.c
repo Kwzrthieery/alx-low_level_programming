@@ -6,7 +6,7 @@
  *
  * Return: return value
  */
-void print_diagonal(n)
+void print_diagonal(int n)
 {
 	int m = 0;
 	int i;
