@@ -6,22 +6,19 @@
  */
 int main(void)
 {
-	int a = '0';
-	int b = 'a';
+	int x = '0';
 
-	while (a <= '9')
+	while (x <= '9')
 	{
-		putchar(a);
-		a++;
-	}
-
-	while (b <= 'f')
-	{
-		putchar(b);
-		b++;
+		putchar(x);
+		if (x != '9')
+		{
+			putchar('-');
+			putchar(' ');
+		}
+		x++;
 	}
 
 	putchar(10);
-
 	return (0);
 }
