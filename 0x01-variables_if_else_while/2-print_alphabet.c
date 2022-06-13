@@ -10,7 +10,7 @@ int main(void)
 
 	while (l <= 122)
 	{
-		putchar(97);
+		putchar(l);
 		++l;
 	}
 	putchar(10);
