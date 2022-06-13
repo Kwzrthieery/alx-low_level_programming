@@ -10,7 +10,7 @@ int main(void)
 		putchar(low);
 		++low;
 	}
-	while (up <= 98)
+	while (up <= 90)
 	{
 		putchar(up);
 		++up;
