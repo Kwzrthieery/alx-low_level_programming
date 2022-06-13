@@ -4,24 +4,20 @@
  *
  * Return: end program
  */
-
 int main(void)
 {
 	char low = 97;
-	char up = 65;
 
 	while (low <= 122)
 	{
-		putchar(low);
+		if (low != 101 && low != 113)
+		{
+			putchar(low);
+		}
 		++low;
 	}
-	while (up <= 90)
-	{
-		putchar(up);
-		++up;
-	}
-
 	putchar(10);
 
 	return (0);
 }
+
