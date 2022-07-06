@@ -3,7 +3,7 @@
  * string_toupper - change all owercas letters of a string
  * to uppercase
  *
- * @S: string to modify
+ * @s: string to modify
  *
  * Return: the resulting string
  */
