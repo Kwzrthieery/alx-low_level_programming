@@ -3,7 +3,7 @@
  * print_name - function to call a function
  *
  * @name: Parameter 1
- * @f: parameter
+ * @f: parameter function
  */
 void print_name(char *name, void (*f)(char *))
 {
