@@ -7,7 +7,7 @@
  * @str: parameter with the element str in
  * the structure
  *
- * Return: Return thr head of the linked list
+ * Return: Return the head of the linked list
  */
 list_t *add_node(list_t **head, const char *str)
 {
