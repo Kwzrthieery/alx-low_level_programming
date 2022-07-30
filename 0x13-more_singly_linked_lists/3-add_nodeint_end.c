@@ -7,7 +7,7 @@
  * the linked list
  * @n: parameter with the value of the number data
  *
- * Retur: the new node
+ * Return: the new node
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
