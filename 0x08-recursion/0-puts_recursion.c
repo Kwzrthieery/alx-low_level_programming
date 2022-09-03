@@ -4,7 +4,7 @@
  *
  * @s: parameter
  */
-void _puts_recursin(char *s)
+void _puts_recursion(char *s)
 {
 	if(s[0] == '\0')
 	{
