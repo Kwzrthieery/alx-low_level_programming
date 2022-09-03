@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _puts_recursin - function similar to puts
+ * _puts_recursion - function similar to puts
  *
  * @s: parameter
  */
 void _puts_recursion(char *s)
 {
-	if(s[0] == '\0')
+	if (s[0] == '\0')
 	{
 		_putchar (10);
 		return;
