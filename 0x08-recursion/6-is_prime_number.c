@@ -3,7 +3,7 @@
  * is_prime - function
  * @x: number
  * @y: number
- * return: result of the function
+ * return: result 0 not prime 1 prime
  */
 int is_prime(int x, int y)
 {
@@ -17,7 +17,7 @@ int is_prime(int x, int y)
 /**
  * is_prime_number - function to verify if its a prime number
  * @n: number to verify
- * return: end of the program
+ * return: result 0 not prime 1 prime
  */
 int is_prime_number(int n)
 {
