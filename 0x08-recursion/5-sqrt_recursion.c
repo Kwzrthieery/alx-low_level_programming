@@ -20,7 +20,7 @@ int _sqrt(int x, int y)
 /**
  * _sqrt_recursion - function
  * @n: number
- * return: result
+ * return: end of program
  */
 int _sqrt_recursion(int n)
 {

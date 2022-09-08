@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * is_prime - prime
+ * is_prime - function
  * @x: number
  * @y: number
- * return: result
+ * return: result of the function
  */
 int is_prime(int x, int y)
 {
@@ -15,9 +15,9 @@ int is_prime(int x, int y)
 		return (is_prime(x, y + 1));
 }
 /**
- * is_prime_number - verify if its a prime number
+ * is_prime_number - function to verify if its a prime number
  * @n: number to verify
- * return: result
+ * return: end of the program
  */
 int is_prime_number(int n)
 {
